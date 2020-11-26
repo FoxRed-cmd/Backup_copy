@@ -10,6 +10,8 @@ namespace Backup_copy
 		private string Type { get; set; }
 		private int Memory;
 		private int notFreeMemory = 0;
+		int time;
+
 		public DVD(int Speed_read_of_recording, string Type, string Model_name) : base(Model_name)
 		{
 			this.Speed_read_of_recording = Speed_read_of_recording;
@@ -20,6 +22,7 @@ namespace Backup_copy
 
 		public override double Copying_data(double amount_files, double memory_file)
 		{
+			time = Convert.ToInt32((amount_files * memory_file / (Speed_read_of_recording * 0.125)) / 60);
 			int free = Get_memory_free();
 			double result = (amount_files * memory_file / 1024) / free;
 			int temp = Convert.ToInt32(result);
@@ -28,6 +31,10 @@ namespace Backup_copy
 				return temp + 1;
 			}
 			return temp;
+		}
+		public int Get_time()
+		{
+			return time;
 		}
 
 		public override void Get_info()

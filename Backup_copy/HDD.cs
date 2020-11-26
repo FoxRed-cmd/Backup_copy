@@ -11,6 +11,8 @@ namespace Backup_copy
 		private int Memory_of_directorys { get; set; }
 		private int Memory;
 		private int notFreeMemory = 0;
+		int time;
+
 		public HDD(int Speed_USB_2_0, int Value_of_directory, int Memory_of_directorys, string Model_name) : base(Model_name)
 		{
 			this.Speed_USB_2_0 = Speed_USB_2_0;
@@ -21,6 +23,7 @@ namespace Backup_copy
 
 		public override double Copying_data(double amount_files, double memory_file)
 		{
+			time = Convert.ToInt32((amount_files * memory_file / (Speed_USB_2_0 * 0.125)) / 60);
 			int free = Get_memory_free();
 			double result = (amount_files * memory_file / 1024) / free;
 			int temp = Convert.ToInt32(result);
@@ -29,6 +32,11 @@ namespace Backup_copy
 				return temp + 1;
 			}
 			return temp;
+		}
+
+		public int Get_time()
+		{
+			return time;
 		}
 
 		public override void Get_info()
