@@ -1,0 +1,13 @@
+D:\Projects\Backup_copy\Backup_copy\bin\Debug\netcoreapp3.1\Backup_copy.exe
+D:\Projects\Backup_copy\Backup_copy\bin\Debug\netcoreapp3.1\Backup_copy.deps.json
+D:\Projects\Backup_copy\Backup_copy\bin\Debug\netcoreapp3.1\Backup_copy.runtimeconfig.json
+D:\Projects\Backup_copy\Backup_copy\bin\Debug\netcoreapp3.1\Backup_copy.runtimeconfig.dev.json
+D:\Projects\Backup_copy\Backup_copy\bin\Debug\netcoreapp3.1\Backup_copy.dll
+D:\Projects\Backup_copy\Backup_copy\bin\Debug\netcoreapp3.1\Backup_copy.pdb
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.csprojAssemblyReference.cache
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.AssemblyInfoInputs.cache
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.AssemblyInfo.cs
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.csproj.CoreCompileInputs.cache
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.dll
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.pdb
+D:\Projects\Backup_copy\Backup_copy\obj\Debug\netcoreapp3.1\Backup_copy.genruntimeconfig.cache
